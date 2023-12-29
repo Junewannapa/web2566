@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://aframe.io/releases/1.5.0/aframe.min.js"></script>
+    <title>Work02</title>
+</head>
+
+<body>
+    <a-scene>
+        <a-assets>
+            <img id="room" src="work2/bg.png">
+            <!-- <img id="man" src="work2/man1.jpg"> -->
+
+        </a-assets>
+
+        <a-text value="Work 2" position="0 -5 -2.2" animation="property: position; to: 0 1.5 -2.2; dur: 2000; easing: linear; loop: false"></a-text>
+        <a-text value="Wannapa Butsabong" position="-5 1 -2" animation="property: position; to: -1 1 -2.2; dur: 8000; easing: linear; loop: false"></a-text>
+
+        <a-sky color="#ECFFFF" src="#room" radius="40"></a-sky>
+        <a-camera>
+            <a-cursor></a-cursor>
+        </a-camera>
+        <!-- <a-box position="0 0 0" width="1" height="1" animation="property: position; to: 0 1 -5; dur: 2000; easing: linear" animation__2="property: rotation;; to: 0 360 0; dur: 5000; loop: true;" src="#man"></a-box>
+        <a-box position="-10 0.75 -10" color="#FFC65D" animation="property: position; to: 2 1 1; dur: 10000; easing: linear; loop: true;" animation__2="property: rotation; to: 0 90 90; dur: 500; loop: true;"></a-box> -->
+    </a-scene>
+
+    <!-- <a-scene>
+        <a-box position="-1 0.5 -3" rotation="0 45 0" color="#4CC3D9"></a-box>
+        <a-sphere position="0 1.25 -5" radius="1.25" color="#EF2D5E"></a-sphere>
+        <a-cylinder position="1 0.75 -3" radius="0.5" height="1.5" color="#FFC65D"></a-cylinder>
+        <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4"></a-plane>
+        <a-sky color="#ECECEC" radius="40"></a-sky>
+    </a-scene> -->
+</body>
+
+</html>
