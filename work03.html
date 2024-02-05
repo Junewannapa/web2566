@@ -8,14 +8,15 @@
   </head>
   <body>
     <div id="app">
+        <router-link to="/index.html">
+  <v-btn color="blue">กลับหน้าหลัก</v-btn>
+</router-link>
       <v-app>
         <v-container>
           <v-card style="max-width: 600px" class="mx-auto">
             <v-card-title class="bg-blue-grey">{{title}}</v-card-title>
             <v-card-text class="pa-6">
-               <router-link to="/index.html">
-  <v-btn color="blue">กลับหน้าหลัก</v-btn>
-</router-link>
+             
               <template v-if="state==0">
                 <v-btn @click="shuffle()" color="green">เริ่มเล่น</v-btn>
               </template>
