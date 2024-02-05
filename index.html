@@ -1,353 +1,213 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title>W3.CSS Template</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-blue-grey.css">
-    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans'>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <style>
-        html,
-        body,
-        h1,
-        h2,
-        h3,
-        h4,
-        h5 {
-            font-family: "Open Sans", sans-serif
-        }
-
-        footer{
-        text-align:"center";
-        }
-        .site-footer
-{
-  background-color:#26272b;
-  padding:45px 0 20px;
-  font-size:15px;
-  line-height:24px;
-  color:#737373;
-}
-.site-footer hr
-{
-  border-top-color:#bbb;
-  opacity:0.5
-}
-.site-footer hr.small
-{
-  margin:20px 0
-}
-.site-footer h6
-{
-  color:#fff;
-  font-size:16px;
-  text-transform:uppercase;
-  margin-top:5px;
-  letter-spacing:2px
-}
-.site-footer a
-{
-  color:#737373;
-}
-.site-footer a:hover
-{
-  color:#3366cc;
-  text-decoration:none;
-}
-.footer-links
-{
-  padding-left:0;
-  list-style:none
-}
-.footer-links li
-{
-  display:block
-}
-.footer-links a
-{
-  color:#737373
-}
-.footer-links a:active,.footer-links a:focus,.footer-links a:hover
-{
-  color:#3366cc;
-  text-decoration:none;
-}
-.footer-links.inline li
-{
-  display:inline-block
-}
-.site-footer .social-icons
-{
-  text-align:right
-}
-.site-footer .social-icons a
-{
-  width:40px;
-  height:40px;
-  line-height:40px;
-  margin-left:6px;
-  margin-right:0;
-  border-radius:100%;
-  background-color:#33353d
-}
-.copyright-text
-{
-  margin:0
-}
-@media (max-width:991px)
-{
-  .site-footer [class^=col-]
-  {
-    margin-bottom:30px
-  }
-}
-@media (max-width:767px)
-{
-  .site-footer
-  {
-    padding-bottom:0
-  }
-  .site-footer .copyright-text,.site-footer .social-icons
-  {
-    text-align:center
-  }
-}
-.social-icons
-{
-  padding-left:0;
-  margin-bottom:0;
-  list-style:none
-}
-.social-icons li
-{
-  display:inline-block;
-  margin-bottom:4px
-}
-.social-icons li.title
-{
-  margin-right:15px;
-  text-transform:uppercase;
-  color:#96a2b2;
-  font-weight:700;
-  font-size:13px
-}
-.social-icons a{
-  background-color:#eceeef;
-  color:#818a91;
-  font-size:16px;
-  display:inline-block;
-  line-height:44px;
-  width:44px;
-  height:44px;
-  text-align:center;
-  margin-right:8px;
-  border-radius:100%;
-  -webkit-transition:all .2s linear;
-  -o-transition:all .2s linear;
-  transition:all .2s linear
-}
-.social-icons a:active,.social-icons a:focus,.social-icons a:hover
-{
-  color:#fff;
-  background-color:#29aafe
-}
-.social-icons.size-sm a
-{
-  line-height:34px;
-  height:34px;
-  width:34px;
-  font-size:14px
-}
-.social-icons a.facebook:hover
-{
-  background-color:#3b5998
-}
-.social-icons a.instagram:hover
-{
-  background-color:#8A49A1
-}
-
-@media (max-width:767px)
-{
-  .social-icons li.title
-  {
-    display:block;
-    margin-right:0;
-    font-weight:600
-  }
-}
-
-
-    </style>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Freelancer - Start Bootstrap Theme</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
 </head>
 
-<body class="w3-theme-l5">
-
-    <!-- Navbar -->
-    <div class="w3-top">
-        <div class="w3-bar w3-theme-d2 w3-left-align w3-large">
-            <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
-            <a href="#" class="w3-bar-item w3-button w3-padding-large w3-theme-d4"><i class="fa fa-home w3-margin-right"></i>Logo</a>
-            <!-- <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="News"><i class="fa fa-globe"></i></a>
-            <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="Account Settings"><i class="fa fa-user"></i></a>
-            <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="Messages"><i class="fa fa-envelope"></i></a>
-           -->
-            <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-padding-large w3-hover-white" title="My Account">
-                <img src="https://i.pinimg.com/736x/18/0b/65/180b65de6c5ae60e43a615065c8622c2.jpg" class="w3-circle" style="height:23px;width:23px" alt="Avatar">
-            </a>
+<body id="page-top">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand" href="#page-top">JWB IT</a>
+            <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars"></i>
+                </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">Portfolio</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">About</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">Contact</a></li>
+                </ul>
+            </div>
         </div>
-    </div>
+    </nav>
+    <!-- Masthead-->
+    <header class="masthead bg-primary text-white text-center">
+        <div class="container d-flex align-items-center flex-column">
+            <!-- Masthead Avatar Image-->
+            <img class="masthead-avatar mb-5 rounded-circle" src="https://scontent-bkk1-2.xx.fbcdn.net/v/t39.30808-6/414382320_1794946244324715_6997307682945960016_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=efb6e6&_nc_eui2=AeG4Mg03_jNLmkl1BAM-JwdCjPM6rRmo242M8zqtGajbjUXlmyAMHOiXYEkxgp72ZP_O8ui-WkgLmh7I81dU7tQc&_nc_ohc=3VEIdMihU6QAX-RtCom&_nc_ht=scontent-bkk1-2.xx&oh=00_AfD32wWMsQWAulzEnHmWofhv_jUE9uxRUJPkdp-uS386BA&oe=65C55A41"
+                alt="...">
 
-    <!-- Navbar on small screens -->
-    <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium w3-large">
-     
-        <a href="#" class="w3-bar-item w3-button w3-padding-large">My Profile</a>
-    </div>
-
-    <!-- Page Container -->
-    <div class="w3-container w3-content" style="max-width:1400px;margin-top:80px">
-        <!-- The Grid -->
-        <div class="w3-row">
-            <!-- Left Column -->
-            <div class="w3-col m3">
-                <!-- Profile -->
-                <div class="w3-card w3-round w3-white">
-                    <div class="w3-container">
-                        <h4 class="w3-center">My Profile</h4>
-                        <p class="w3-center"><img src="https://i.pinimg.com/736x/18/0b/65/180b65de6c5ae60e43a615065c8622c2.jpg" class="w3-circle" style="height:106px;width:106px" alt="Avatar"></p>
-                        <hr>
-                        <p><i class="fa fa-pencil fa-fw w3-margin-right w3-text-theme"></i>Wannapa</p>
-                        <p><i class="fa fa-home fa-fw w3-margin-right w3-text-theme"></i>KKC</p>
-                        <p><i class="fa fa-birthday-cake fa-fw w3-margin-right w3-text-theme"></i>December 30, 2003</p>
-                    </div>
-                </div>
-                <br>
-
-                <!-- Accordion -->
-                <div class="w3-card w3-round">
-                    <div class="w3-white">
-                        <button onclick="myFunction('Demo1')" class="w3-button w3-block w3-theme-l1 w3-left-align"><i class="fa fa-circle-o-notch fa-fw w3-margin-right"></i> My Groups</button>
-                        <div id="Demo1" class="w3-hide w3-container">
-                            <p>Some text..</p>
-                        </div>
-                        <button onclick="myFunction('Demo2')" class="w3-button w3-block w3-theme-l1 w3-left-align"><i class="fa fa-calendar-check-o fa-fw w3-margin-right"></i> My Events</button>
-                        <div id="Demo2" class="w3-hide w3-container">
-                            <p>Some other text..</p>
-                        </div>
-                        <button onclick="myFunction('Demo3')" class="w3-button w3-block w3-theme-l1 w3-left-align"><i class="fa fa-users fa-fw w3-margin-right"></i> My Photos</button>
-                        <div id="Demo3" class="w3-hide w3-container">
-                            <div class="w3-row-padding">
-                                <br>
-                                <div class="w3-half">
-                                    <img src="https://www.w3schools.com/w3images/lights.jpg" style="width:100%" class="w3-margin-bottom">
-                                </div>
-                                <div class="w3-half">
-                                    <img src="https://www.w3schools.com/w3images/nature.jpg" style="width:100%" class="w3-margin-bottom">
-                                </div>
-                                <div class="w3-half">
-                                    <img src="https://www.w3schools.com/w3images/mountains.jpg" style="width:100%" class="w3-margin-bottom">
-                                </div>
-                                <div class="w3-half">
-                                    <img src="https://www.w3schools.com/w3images/forest.jpg" style="width:100%" class="w3-margin-bottom">
-                                </div>
-                                <div class="w3-half">
-                                    <img src="https://www.w3schools.com/w3images/nature.jpg" style="width:100%" class="w3-margin-bottom">
-                                </div>
-                                <div class="w3-half">
-                                    <img src="https://www.w3schools.com/w3images/snow.jpg" style="width:100%" class="w3-margin-bottom">
-                                </div>
+            <!-- Masthead Heading-->
+            <h1 class="masthead-heading mb-0">I am JWB OG</h1>
+            <!-- Icon Divider-->
+            <div class="divider-custom divider-light">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
+            <!-- Masthead Subheading-->
+            <p class="masthead-subheading font-weight-light mb-0">วรรณภา บุษบง 653380011-7 IT SEC.1</p>
+        </div>
+    </header>
+    <!-- Portfolio Section-->
+    <section class="page-section portfolio" id="portfolio">
+        <div class="container">
+            <!-- Portfolio Section Heading-->
+            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Portfolio</h2>
+            <!-- Icon Divider-->
+            <div class="divider-custom">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
+            <!-- Portfolio Grid Items-->
+            <div class="row justify-content-center">
+                <!-- Portfolio Item 1-->
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <a href="work01.html" class="text-decoration-none">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
+                            <img class="img-fluid" src="assets/img/portfolio/cabin.png" alt="..." />
+                            <p class="masthead-subheading font-weight-light mb-0 text-center">WORK 1 เกมจับคู่ภาพ ด้วย JQuery + Boostrap</p>
                         </div>
-                    </div>
+                    </a>
                 </div>
-                <br>
 
-                <!-- Interests -->
-                <div class="w3-card w3-round w3-white w3-hide-small">
-                    <div class="w3-container">
-                        <p>ABOUT</p>
-                     
-                    </div>
+                <!-- Portfolio Item 2-->
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <a href="work02.html" class="text-decoration-none">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/cake.png" alt="..." />
+                            <p class="masthead-subheading font-weight-light mb-0 text-center">WORK 2 สร้างเว็บแบบ VR 360 โดยใช้ A-Frame</p>
+                        </div>
+                    </a>
                 </div>
-                <br>
+                <!-- Portfolio Item 3-->
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <a href="work03.html" class="text-decoration-none">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/circus.png" alt="..." />
+                            <p class="masthead-subheading font-weight-light mb-0 text-center">WORK 3 เกมจับคู่ภาพ ด้วย VueJS Vuetify</p>
+                        </div>
+                    </a>
+                </div>
+                <!-- Portfolio Item 4-->
+                <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
+                    <a href="work04.html" class="text-decoration-none">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal4">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/game.png" alt="..." />
+                            <p class="masthead-subheading font-weight-light mb-0 text-center">WORK 2 เกมจับคู่ภาพ ด้วย ReactJS</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <a href="https://artijo.github.io/aframe-midterm/mainpage.html" class="text-decoration-none" target="_blank">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal6">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/submarine.png" alt="..." />
+                            <p class="masthead-subheading font-weight-light mb-0 text-center">MINI Project VR Web โลกเสมือนจริง โดยใช้ A-Frame</p>
+                        </div>
+                    </a>
+                </div>
 
-                
-                <!-- End Left Column -->
+                <div class="col-md-6 col-lg-4 mb-5 mb-md-0">
+                    <a href="work05.html" class="text-decoration-none">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/safe.png" alt="..." />
+                            <p class="masthead-subheading font-weight-light mb-0 text-center">WORK 5 สร้าง ReacNative Application</p>
+                        </div>
+                    </a>
+                </div>
+
+
             </div>
-
-            <!-- Middle Column -->
-            <div class="w3-col m9">
-
-
-                <div class="w3-container w3-card w3-white w3-round w3-margin"><br>
-                    <img src="https://i.pinimg.com/736x/18/0b/65/180b65de6c5ae60e43a615065c8622c2.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:60px">
-                    <span class="w3-right w3-opacity">4 Dec. 2023</span>
-                    <h4>Wannapa</h4><br>
-                    <hr class="w3-clear">
-                    <p>งานที่ 1 เกมจับคู่ภาพ</p>
-                    <div class="w3-row-padding" style="margin:0 -16px">
-                        <div class="w3-half">
-                            <img src="img/index_01.png" style="width:100%" alt="Northern Lights" class="w3-margin-bottom">
-                        </div>
-                        <div class="w3-half">
-                            <img src="img/index_02.png" style="width:100%" alt="Nature" class="w3-margin-bottom">
-                        </div>
-                    </div>
-                    <a href="work01.html"><button type="button" class="w3-button w3-theme-d1 w3-margin-bottom"> เพิ่มเติม</button></a>
-
-                </div>
-
-
-                <!-- End Middle Column -->
-            </div>
-
-         
         </div>
-        <br>
+    </section>
+    <!-- About Section-->
+    <section class="page-section bg-primary text-white mb-0" id="about">
+        <div class="container">
+            <!-- About Section Heading-->
+            <h2 class="page-section-heading text-center text-uppercase text-white">About</h2>
+            <!-- Icon Divider-->
+            <div class="divider-custom divider-light">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
+            <!-- About Section Content-->
+            <div class="row">
+                <div class="ms-auto text-center">
+                    <p class="lead">นางสาววรรณภา บุษบง 653380011-7</p>
+                    <p><i class="fa fa-home fa-fw w3-margin-right w3-text-theme"></i>IT, College of Computing Khon Kaen University</p>
+                    <p><i class="fa fa-birthday-cake fa-fw w3-margin-right w3-text-theme"></i>December 30, 2003</p> <br>
+                    <p>วิชา SC310006 (SC362202) Mobile and Web Application Development ((SC362202) <br>การพัฒนาโปรแกรมประยุกต์สำหรับอุปกรณ์เคลื่อนที่และเว็บ)</p>
+                </div>
 
-        <!-- Footer -->
-        <footer class="w3-container w3-theme-d3 w3-padding-16 w3-center">
-            <h5>นางสาววรรณภา บุษบง 653380011-7</h5>
-        </footer>
+            </div>
 
-        <footer class="w3-container w3-theme-d5 w3-center">
-        <div class="col-md-4 col-sm-6 col-xs-12">
-            <ul class="social-icons">
-              <li><a class="facebook" href="https://www.facebook.com/june.wannapapf/" target="_self"><i class="fa fa-facebook"></i></a></li>
-              <li><a class="instagram" href="https://www.instagram.com/june.og?igsh=eGhldmJ5ZGpjamtq&utm_source=qr" target="_self"><i class="fa fa-instagram"></i></a></li>
-              
-            </ul>
-          </div>
-        </footer>
+        </div>
+    </section>
 
-        <script>
-            // Accordion
-            function myFunction(id) {
-                var x = document.getElementById(id);
-                if (x.className.indexOf("w3-show") == -1) {
-                    x.className += " w3-show";
-                    x.previousElementSibling.className += " w3-theme-d1";
-                } else {
-                    x.className = x.className.replace("w3-show", "");
-                    x.previousElementSibling.className =
-                        x.previousElementSibling.className.replace(" w3-theme-d1", "");
-                }
-            }
 
-            // Used to toggle the menu on smaller screens when clicking on the menu button
-            function openNav() {
-                var x = document.getElementById("navDemo");
-                if (x.className.indexOf("w3-show") == -1) {
-                    x.className += " w3-show";
-                } else {
-                    x.className = x.className.replace(" w3-show", "");
-                }
-            }
-        </script>
+    <!-- Footer-->
+    <footer class="footer text-center" id="contact">
+        <div class="container">
+            <div class="row">
+                <!-- Footer Location-->
+                <div class="col-lg-6 mb-5 mb-lg-0">
+                    <h4 class="text-uppercase mb-4">Location</h4>
+                    <p class="lead mb-0">
+                        123 หมู่ 16 ถนนมิตรภาพ ตำบลในเมือง <br>อำเภอเมือง จังหวัดขอนแก่น 40002
+                    </p>
+                </div>
+                <!-- Footer Social Icons-->
+                <div class="col-lg-6 mb-5 mb-lg-0">
+                    <h4 class="text-uppercase mb-4">Around the Web</h4>
+                    <a class="btn btn-outline-light btn-social mx-1" href="https://www.facebook.com/june.wannapapf/" target="_blank"><i class="fab fa-fw fa-facebook-f"></i></a>
+                    <a class="btn btn-outline-light btn-social mx-1" href="https://www.instagram.com/june.og?igsh=eGhldmJ5ZGpjamtq&utm_source=qr" target="_blank"><i class="fab fa-fw fa-instagram"></i></a>
+                    <a class="btn btn-outline-light btn-social mx-1" href="mailto:wannapa.bu@kkumail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+                    <a class="btn btn-outline-light btn-social mx-1" href="https://github.com/Junewannapa/web2566" target="_blank"><i class="fab fa-github"></i></a>
+                </div>
 
+            </div>
+        </div>
+    </footer>
+    <!-- Copyright Section-->
+    <div class="copyright py-4 text-center text-white">
+        <div class="container"><small>Copyright &copy; JWB 2023</small></div>
+    </div>
+
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+    <!-- * *                               SB Forms JS                               * *-->
+    <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
 </body>
 
 </html>
