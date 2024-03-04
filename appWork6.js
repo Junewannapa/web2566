@@ -5,14 +5,14 @@ const RB=ReactBootstrap;
       
         // Your web app's Firebase configuration
         const firebaseConfig = {
-  apiKey: "AIzaSyA-IpE9DHyQuZ1XmqrEvg8R7rSqjliFQbg",
-  authDomain: "web2566-ca75c.firebaseapp.com",
-  projectId: "web2566-ca75c",
-  storageBucket: "web2566-ca75c.appspot.com",
-  messagingSenderId: "44347073660",
-  appId: "1:44347073660:web:3ba2ce241b9b5e8c5f95f9",
-  measurementId: "G-C9ZL0K6BZN"
-};
+          apiKey: "AIzaSyA-IpE9DHyQuZ1XmqrEvg8R7rSqjliFQbg",
+          authDomain: "web2566-ca75c.firebaseapp.com",
+          projectId: "web2566-ca75c",
+          storageBucket: "web2566-ca75c.appspot.com",
+          messagingSenderId: "44347073660",
+          appId: "1:44347073660:web:3ba2ce241b9b5e8c5f95f9",
+          measurementId: "G-C9ZL0K6BZN"
+        };
       
         // Initialize Firebase
         firebase.initializeApp(firebaseConfig);      
