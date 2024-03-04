@@ -4,15 +4,15 @@ const RB=ReactBootstrap;
         // https://firebase.google.com/docs/web/setup#available-libraries
       
         // Your web app's Firebase configuration
-        const firebaseConfig = {
-          apiKey: "AIzaSyA-IpE9DHyQuZ1XmqrEvg8R7rSqjliFQbg",
-          authDomain: "web2566-ca75c.firebaseapp.com",
-          projectId: "web2566-ca75c",
-          storageBucket: "web2566-ca75c.appspot.com",
-          messagingSenderId: "44347073660",
-          appId: "1:44347073660:web:3ba2ce241b9b5e8c5f95f9",
-          measurementId: "G-C9ZL0K6BZN"
-        };
+       const firebaseConfig = {
+  apiKey: "AIzaSyA-IpE9DHyQuZ1XmqrEvg8R7rSqjliFQbg",
+  authDomain: "web2566-ca75c.firebaseapp.com",
+  projectId: "web2566-ca75c",
+  storageBucket: "web2566-ca75c.appspot.com",
+  messagingSenderId: "44347073660",
+  appId: "1:44347073660:web:3ba2ce241b9b5e8c5f95f9",
+  measurementId: "G-C9ZL0K6BZN"
+};
       
         // Initialize Firebase
         firebase.initializeApp(firebaseConfig);      
@@ -31,7 +31,7 @@ class App extends React.Component {
     );
     footer = (
       <div>
-        By  653380011-7, วรรณภา บุษบง <br/>
+        By 653380118-9, อภิชัย ทินจอง <br />
         College of Computing, Khon Kaen University
       </div>
     );
@@ -125,7 +125,7 @@ class App extends React.Component {
                 <RB.Form.Group controlId="formBasicEmail">
                   <RB.Form.Label>Email</RB.Form.Label>
                   <RB.Form.Control type="email" placeholder="Enter Email" value={this.state.stdemail} onChange={(e) => this.setState({ stdemail: e.target.value })} />
-                </RB.Form.Group>  <br/>
+                </RB.Form.Group>
                 <RB.Button variant="primary" type="submit" onClick={(e)=>this.handlesubmit(e)}>
                   Submit/Update
                 </RB.Button>
