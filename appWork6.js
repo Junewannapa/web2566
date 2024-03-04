@@ -99,24 +99,24 @@ class App extends React.Component {
               <RB.Form>
               <RB.Form.Group controlId="formBasicText">
                   <RB.Form.Label>ID</RB.Form.Label>
-                  <RB.Form.Control type="text" placeholder="Enter Student ID" value={this.state.stdid} onChange={(e) => this.setState({ stdid: e.target.value })} readOnly={this.state.isupdate == true}  />
+                  <RB.Form.Control type="text" placeholder="Enter Student ID" style={{width:120}}  value={this.state.stdid} onChange={(e) => this.setState({ stdid: e.target.value })} readOnly={this.state.isupdate == true}  />
                   <span>id: {this.state.stdid}</span>
                 </RB.Form.Group>
                 <RB.Form.Group controlId="formBasicText">
                   <RB.Form.Label>Title</RB.Form.Label>
-                  <RB.Form.Control type="text" placeholder="Enter First Name" value={this.state.stdtitle} onChange={(e) => this.setState({ stdtitle: e.target.value })} />
+                  <RB.Form.Control type="text" placeholder="Enter First Name" style={{width:120}} value={this.state.stdtitle} onChange={(e) => this.setState({ stdtitle: e.target.value })} />
                 </RB.Form.Group>
                 <RB.Form.Group controlId="formBasicText">
                   <RB.Form.Label>First Name</RB.Form.Label>
-                  <RB.Form.Control type="text" placeholder="Enter First Name" value={this.state.stdfname} onChange={(e) => this.setState({ stdfname: e.target.value })} />
+                  <RB.Form.Control type="text" placeholder="Enter First Name"style={{width:120}}  value={this.state.stdfname} onChange={(e) => this.setState({ stdfname: e.target.value })} />
                 </RB.Form.Group>
                 <RB.Form.Group controlId="formBasicText">
                   <RB.Form.Label>Last Name</RB.Form.Label>
-                  <RB.Form.Control type="text" placeholder="Enter Last Name" value={this.state.stdlname} onChange={(e) => this.setState({ stdlname: e.target.value })} />
+                  <RB.Form.Control type="text" placeholder="Enter Last Name"  style={{width:120}} value={this.state.stdlname} onChange={(e) => this.setState({ stdlname: e.target.value })} />
                 </RB.Form.Group>
                 <RB.Form.Group controlId="formBasicEmail">
                   <RB.Form.Label>Email</RB.Form.Label>
-                  <RB.Form.Control type="email" placeholder="Enter Email" value={this.state.stdemail} onChange={(e) => this.setState({ stdemail: e.target.value })} />
+                  <RB.Form.Control type="email" placeholder="Enter Email" style={{width:120}} value={this.state.stdemail} onChange={(e) => this.setState({ stdemail: e.target.value })} />
                 </RB.Form.Group>
                 <RB.Button variant="primary" type="submit" onClick={(e)=>this.handlesubmit(e)}>
                   Submit/Update
